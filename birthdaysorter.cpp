@@ -72,8 +72,8 @@ int main(){
         peeps.push_back(p);
     }
     
-    vector<person*> leeps = sortedbyDob(peeps);
+    vector<person*> vec = sortedbyDob(peeps);
     for(int i = 0; i < n; i++){
-        leeps[i]->formattedprint();
+        vec[i]->formattedprint();
     }
 }
